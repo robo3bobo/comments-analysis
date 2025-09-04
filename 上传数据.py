@@ -22,7 +22,7 @@ print(f"\n重复行数量：{df.duplicated().sum()}")
 
 # 4. 创建连接云端数据库的引擎
 
-cloud_db_connection_string = "mysql+pymysql://dk:Dingkai456@rm-bp1llqgywhqx6rc9pno.mysql.rds.aliyuncs.com:3306/the_love_of_city"
+cloud_db_connection_string = "xxxxxxxxxx/the_love_of_city"#填写自己的相关信息
 #这里要记得在云端建立一个名称相同的新的数据库
 
 try:
@@ -40,4 +40,5 @@ try:
     print('数据成功写入云端')
 except Exception as e:
     print('写入失败',e)
+
 
